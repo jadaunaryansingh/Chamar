@@ -14,6 +14,24 @@
         background-image: radial-gradient(circle at center, rgba(220, 38, 38, 0.1) 0%, #000000 70%);
       }
     </style>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'surface': '#1a1a1a',
+              'on-surface': '#ffffff',
+              'primary': '#dc2626',
+              'primary-variant': '#b91c1c',
+              'secondary': '#374151',
+              'secondary-variant': '#4b5563'
+            }
+          }
+        }
+      }
+    </script>
     <!-- pdf.js for PDF text extraction -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <!-- jsPDF and jsPDF-autotable for PDF export -->
